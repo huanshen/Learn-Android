@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Define a standard holo blue color. Useful as we can refer to it from various other
+         resource files or even code and it only needs to be updated in one place if we wanted
+         to change it. -->
+    <color name="holo_blue">#FF33B5E5</color>
+
+</resources>
