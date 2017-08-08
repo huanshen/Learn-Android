@@ -61,6 +61,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     mWeixin = new ContentFragment();
                 }
                 // 使用当前Fragment的布局替代id_content的控件
+                // 其实就是 FrameLayout 是是占位，用来替换的
                 transaction.replace(R.id.id_content, mWeixin);
                 break;
             case R.id.tab_bottom_friend:
