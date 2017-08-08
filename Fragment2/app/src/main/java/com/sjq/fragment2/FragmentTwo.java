@@ -14,6 +14,18 @@ public class FragmentTwo extends Fragment implements OnClickListener
 {
 
     private Button mBtn ;
+
+    private FTwoBtnClickListener fTwoBtnClickListener ;
+
+    public interface FTwoBtnClickListener
+    {
+        void onFTwoBtnClick();
+    }
+    //设置回调接口
+    public void setfTwoBtnClickListener(FTwoBtnClickListener fTwoBtnClickListener)
+    {
+        this.fTwoBtnClickListener = fTwoBtnClickListener;
+    }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState)
@@ -26,14 +38,10 @@ public class FragmentTwo extends Fragment implements OnClickListener
     @Override
     public void onClick(View v)
     {
-        FragmentThree fThree = new FragmentThree();
-        FragmentManager fm = getFragmentManager();
-        FragmentTransaction tx = fm.beginTransaction();
-        tx.hide(this);
-        tx.add(R.id.id_content , fThree, "THREE");
-//      tx.replace(R.id.id_content, fThree, "THREE");
-        tx.addToBackStack(null);
-        tx.commit();
+        if(fTwoBtnClickListener != null)
+        {
+            fTwoBtnClickListener.onFTwoBtnClick();
+        }
     }
 
 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu  xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 我们分三种情况进行设置 -->
+    <!-- Part 1 ：普通情况，我们增加三个MenuItem，item对应MenuItem的格式。item中的android:id直接就是item的ID，即我们menu.add()中的第二个参数。 -->
+    <item android:id="@+id/fragment_menu"
+        android:icon="@drawable/ic_launcher"
+    android:title="Close"
+    android:orderInCategory = "3" />
+    <item android:id="@+id/c11_no_icon"
+        android:orderInCategory = "2"
+
+        android:title = "Sans Icon" />
+    <item android:id="@+id/c11_disabled"
+        android:orderInCategory="4"
+        android:enabled="false"
+        android:title="Disabled" />
+    <!-- Part 2 ：Group的情况，我们在Group中放入2个item，如果我们要显示3.4的方式，可以增加group的参数android:checkableBehavior来设置,single表示radio box，all表示checkbox，none表示checkable=flase。group中的android:id就是Gourp_ID，即menu.add()中的第一个参数。在这个例子中，我们设置这个group不可视，如果需要显示，代码为：menu.setGroupVisible(R.id.c11_other_stuff, true);-->
+    <group android:id="@+id/c11_other_stuff"
+    android:menuCategory="secondary"
+    android:checkableBehavior="single"
+    android:visible="false" >
+    <item android:id="@+id/c11_later"
+        android:orderInCategory="0"
+        android:title="2nd-To-Last" />
+    <item android:id="@+id/last"
+        android:orderInCategory="5"
+        android:title="Last" />
+</group>
+    <!-- Part 3 ：子menu的设置，将在menuItem内部嵌套一个<Menu>，在这个例子中的子菜单，试验了快捷键的方式 -->
+<item android:id="@+id/c11_submenu"
+android:orderInCategory="3"
+android:title="A submenu" >
+<menu>
+    <item android:id="@+id/c11_non_ghost"
+        android:title="Non-Ghost"
+        android:visible="true"
+        android:alphabeticShortcut="n" />
+    <item android:id="@+id/c11_ghost"
+        android:title="Ghost"
+        android:visible="true"
+        android:alphabeticShortcut="g" />
+</menu>
+</item>
+    </menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu  xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 我们分三种情况进行设置 -->
+    <!-- Part 1 ：普通情况，我们增加三个MenuItem，item对应MenuItem的格式。item中的android:id直接就是item的ID，即我们menu.add()中的第二个参数。 -->
+    <item android:id="@+id/fragment_menu"
+
+    android:title="Close"
+    android:orderInCategory = "3"
+    android:icon="@drawable/android_focused" />
+    </menu>
+</resources>
