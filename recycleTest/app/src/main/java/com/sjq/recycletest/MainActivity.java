@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setHasFixedSize(true);
         data = new String[]{"1231","123","123","123","123","123","123","123","123","123","123","432","523","45","234","2342", "2342", "324","234","234234"};
 
-        //创建并设置Adapter
+        // 具有点击功能的 1
        /* mAdapter = new MyAdapter(data, new MyAdapter.onRecyclerViewItemClick() {
             @Override
             public void onItemClick(View v, int position) {
@@ -36,17 +36,18 @@ public class MainActivity extends AppCompatActivity {
         });
         mRecyclerView.setAdapter(mAdapter);*/
 
-        mAdapter = new AnotherAdapter(data, new AnotherAdapter.OnItemClickListener(){
+        // 具有点击功能的 2
+       /* mAdapter = new AnotherAdapter(data, new AnotherAdapter.OnItemClickListener(){
             @Override
             public void onItemClick (View view , int position){
                 Toast.makeText(MainActivity.this, data[position],Toast.LENGTH_SHORT).show();
             }
         });
 
+        mRecyclerView.setAdapter(mAdapter);*/
+
+        mAdapter = new TwoAdapter(data);
         mRecyclerView.setAdapter(mAdapter);
-
-
-
     }
 
 }
