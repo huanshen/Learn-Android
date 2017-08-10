@@ -4,11 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -32,8 +28,24 @@ public class MainActivity extends AppCompatActivity {
         data = new String[]{"1231","123","123","123","123","123","123","123","123","123","123","432","523","45","234","2342", "2342", "324","234","234234"};
 
         //创建并设置Adapter
-        mAdapter = new MyAdapter(data);
+       /* mAdapter = new MyAdapter(data, new MyAdapter.onRecyclerViewItemClick() {
+            @Override
+            public void onItemClick(View v, int position) {
+                Toast.makeText(MainActivity.this, "第" + position + "行", Toast.LENGTH_SHORT).show();
+            }
+        });
+        mRecyclerView.setAdapter(mAdapter);*/
+
+        mAdapter = new AnotherAdapter(data, new AnotherAdapter.OnItemClickListener(){
+            @Override
+            public void onItemClick (View view , int position){
+                Toast.makeText(MainActivity.this, data[position],Toast.LENGTH_SHORT).show();
+            }
+        });
+
         mRecyclerView.setAdapter(mAdapter);
+
+
 
     }
 
