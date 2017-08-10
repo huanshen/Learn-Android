@@ -29,29 +29,12 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mLayoutManager);
         //如果可以确定每个item的高度是固定的，设置这个选项可以提高性能
         mRecyclerView.setHasFixedSize(true);
-        data = new String[]{"1231","432","523","45","234","2342", "2342", "324","234","234234"};
+        data = new String[]{"1231","123","123","123","123","123","123","123","123","123","123","432","523","45","234","2342", "2342", "324","234","234234"};
 
         //创建并设置Adapter
         mAdapter = new MyAdapter(data);
         mRecyclerView.setAdapter(mAdapter);
 
-        mAdapter.setClickListener(new MyAdapter.OnItemClickListener() {
-            boolean flag = false;
-            @Override
-            public void onClick(View view, int position) {
-                TextView tvName = (TextView) view.findViewById(R.id.text);
-                String name = flag ? "hunao" : "china";
-                tvName.setText(name + position);
-                flag = !flag;
-            }
-        });
-
-
-
-
     }
-
-
-
 
 }

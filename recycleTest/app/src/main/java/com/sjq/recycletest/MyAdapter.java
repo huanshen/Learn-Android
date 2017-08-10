@@ -21,21 +21,6 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     }
 
 
-    // 创建点击接口
-    private OnItemClickListener clickListener;
-
-    public void setClickListener(OnItemClickListener clickListener) {
-        this.clickListener = clickListener;
-    }
-
-    public static interface OnItemClickListener {
-        void onClick(View view, int position);
-    }
-
-
-
-
-
 
     //创建新View，被LayoutManager所调用
     @Override
@@ -86,21 +71,16 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         }
     }
 
-    public  class ColorHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public  class ColorHolder extends RecyclerView.ViewHolder{
         public TextView mTextView;
         LinearLayout rootView;
         public ColorHolder(View view){
             super(view);
             mTextView = (TextView) view.findViewById(R.id.text);
             rootView = (LinearLayout) itemView.findViewById(R.id.root);
-            rootView.setOnClickListener(this);
         }
 
-        public void onClick(View v) {
-            if (clickListener != null) {
-                clickListener.onClick(itemView, getAdapterPosition());
-            }
-        }
+
 
     }
 
