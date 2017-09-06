@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\newbaidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\anim\\an_test.xml",
+        "source": "D:\\newbaidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\anim\\an_test.xml"
+    },
+    {
+        "merged": "D:\\newbaidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\anim\\exit_anim.xml",
+        "source": "D:\\newbaidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\anim\\exit_anim.xml"
+    },
+    {
+        "merged": "D:\\newbaidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\anim\\enter_anim.xml",
+        "source": "D:\\newbaidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\anim\\enter_anim.xml"
+    },
+    {
+        "merged": "D:\\newbaidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_item.xml",
+        "source": "D:\\newbaidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\anim\\anim_item.xml"
+    },
+    {
+        "merged": "D:\\newbaidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_layout.xml",
+        "source": "D:\\newbaidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\anim\\anim_layout.xml"
+    }
+]
