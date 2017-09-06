@@ -1,3 +1,4 @@
+/*
 package com.example.customview01.view;
 
 import java.util.HashSet;
@@ -13,27 +14,36 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.customview01.R;
 
 public class CustomTitleView extends View
 {
-	/**
+	*/
+/**
 	 * 文本
-	 */
+	 *//*
+
 	private String mTitleText;
-	/**
+	*/
+/**
 	 * 文本的颜色
-	 */
+	 *//*
+
 	private int mTitleTextColor;
-	/**
+	*/
+/**
 	 * 文本的大小
-	 */
+	 *//*
+
 	private int mTitleTextSize;
 
-	/**
+	*/
+/**
 	 * 绘制时控制文本绘制的范围
-	 */
+	 *//*
+
 	private Rect mBound;
 	private Paint mPaint;
 
@@ -47,20 +57,24 @@ public class CustomTitleView extends View
 		this(context, null);
 	}
 
-	/**
+	*/
+/**
 	 * 获得我自定义的样式属性
 	 * 
 	 * @param context
 	 * @param attrs
 	 * @param defStyle
-	 */
+	 *//*
+
 	public CustomTitleView(Context context, AttributeSet attrs, int defStyle)
 	{
 		super(context, attrs, defStyle);
-		/**
+		*/
+/**
 		 * 获得我们所定义的自定义样式属性
-		 */
-		TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.CustomTitleView, defStyle, 0);
+		 *//*
+
+		TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CustomTitleView, defStyle, 0);
 		int n = a.getIndexCount();
 		for (int i = 0; i < n; i++)
 		{
@@ -85,9 +99,11 @@ public class CustomTitleView extends View
 		}
 		a.recycle();
 
-		/**
+		*/
+/**
 		 * 获得绘制文本的宽和高
-		 */
+		 *//*
+
 		mPaint = new Paint();
 		mPaint.setTextSize(mTitleTextSize);
 		// mPaint.setColor(mTitleTextColor);
@@ -133,9 +149,11 @@ public class CustomTitleView extends View
 		int width = 0;
 		int height = 0;
 
-		/**
+		*/
+/**
 		 * 设置宽度
-		 */
+		 *//*
+
 		int specMode = MeasureSpec.getMode(widthMeasureSpec);
 		int specSize = MeasureSpec.getSize(widthMeasureSpec);
 		switch (specMode)
@@ -148,9 +166,11 @@ public class CustomTitleView extends View
 			break;
 		}
 
-		/**
+		*/
+/**
 		 * 设置高度
-		 */
+		 *//*
+
 		specMode = MeasureSpec.getMode(heightMeasureSpec);
 		specSize = MeasureSpec.getSize(heightMeasureSpec);
 		switch (specMode)
@@ -164,6 +184,7 @@ public class CustomTitleView extends View
 		}
 
 		setMeasuredDimension(width, height);
+		Toast.makeText(getContext(),width + "", Toast.LENGTH_SHORT).show();
 
 	}
 
@@ -177,3 +198,4 @@ public class CustomTitleView extends View
 		canvas.drawText(mTitleText, getWidth() / 2 - mBound.width() / 2, getHeight() / 2 + mBound.height() / 2, mPaint);
 	}
 }
+*/

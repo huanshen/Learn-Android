@@ -8,14 +8,12 @@
 package com.example.customview01;
 
 public final class R {
-    public static final class anim {
-        public static final int an_test=0x7f040000;
-        public static final int anim_item=0x7f040001;
-        public static final int anim_layout=0x7f040002;
-        public static final int enter_anim=0x7f040003;
-        public static final int exit_anim=0x7f040004;
-    }
     public static final class attr {
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+         */
+        public static final int left_button_drawable=0x7f01000e;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -23,7 +21,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleText=0x7f010000;
+        public static final int left_button_text=0x7f01000c;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -32,7 +30,62 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleTextColor=0x7f010001;
+        public static final int left_button_text_color=0x7f01000d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int left_button_visible=0x7f010004;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+         */
+        public static final int right_button_drawable=0x7f01000b;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int right_button_text=0x7f010009;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int right_button_text_color=0x7f01000a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int right_button_visible=0x7f010005;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleText1=0x7f010000;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int titleTextColor1=0x7f010001;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -42,69 +95,89 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleTextSize=0x7f010002;
+        public static final int titleTextSize1=0x7f010002;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+         */
+        public static final int title_background_color=0x7f010003;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int title_text=0x7f010006;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int title_text_color=0x7f010007;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+         */
+        public static final int title_text_drawable=0x7f010008;
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f040000;
+        public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int frame_test=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int s1=0x7f020002;
-        public static final int s2=0x7f020003;
+        public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f090001;
-        public static final int shen=0x7f090000;
+        public static final int action_settings=0x7f080003;
+        public static final int title_bar_left=0x7f080000;
+        public static final int title_bar_right=0x7f080002;
+        public static final int title_bar_title=0x7f080001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int frame_test=0x7f030001;
+        public static final int layout=0x7f030001;
+        public static final int s=0x7f030002;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int main=0x7f070000;
     }
     public static final class string {
-        public static final int action_settings=0x7f070000;
-        public static final int app_name=0x7f070001;
-        public static final int hello_world=0x7f070002;
+        public static final int action_settings=0x7f060000;
+        public static final int app_name=0x7f060001;
+        public static final int hello_world=0x7f060002;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
-        public static final int AppBaseTheme=0x7f060000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppBaseTheme=0x7f050000;
+        public static final int AppTheme=0x7f050001;
     }
     public static final class styleable {
-        /** Attributes that can be used with a CustomTitleView.
+        /** Attributes that can be used with a CustomImageView.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomTitleView_titleText com.example.customview01:titleText}</code></td><td></td></tr>
-           <tr><td><code>{@link #CustomTitleView_titleTextColor com.example.customview01:titleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CustomTitleView_titleTextSize com.example.customview01:titleTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomImageView_titleText1 com.example.customview01:titleText1}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomImageView_titleTextColor1 com.example.customview01:titleTextColor1}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomImageView_titleTextSize1 com.example.customview01:titleTextSize1}</code></td><td></td></tr>
            </table>
-           @see #CustomTitleView_titleText
-           @see #CustomTitleView_titleTextColor
-           @see #CustomTitleView_titleTextSize
+           @see #CustomImageView_titleText1
+           @see #CustomImageView_titleTextColor1
+           @see #CustomImageView_titleTextSize1
          */
-        public static final int[] CustomTitleView = {
+        public static final int[] CustomImageView = {
             0x7f010000, 0x7f010001, 0x7f010002
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#titleText}
-          attribute's value can be found in the {@link #CustomTitleView} array.
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#titleText1}
+          attribute's value can be found in the {@link #CustomImageView} array.
 
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -113,12 +186,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.customview01:titleText
+          @attr name com.example.customview01:titleText1
         */
-        public static final int CustomTitleView_titleText = 0;
+        public static final int CustomImageView_titleText1 = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#titleTextColor}
-          attribute's value can be found in the {@link #CustomTitleView} array.
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#titleTextColor1}
+          attribute's value can be found in the {@link #CustomImageView} array.
 
 
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -128,12 +201,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.customview01:titleTextColor
+          @attr name com.example.customview01:titleTextColor1
         */
-        public static final int CustomTitleView_titleTextColor = 1;
+        public static final int CustomImageView_titleTextColor1 = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#titleTextSize}
-          attribute's value can be found in the {@link #CustomTitleView} array.
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#titleTextSize1}
+          attribute's value can be found in the {@link #CustomImageView} array.
 
 
           <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -144,8 +217,204 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.customview01:titleTextSize
+          @attr name com.example.customview01:titleTextSize1
         */
-        public static final int CustomTitleView_titleTextSize = 2;
+        public static final int CustomImageView_titleTextSize1 = 2;
+        /** Attributes that can be used with a CustomTitleBar.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CustomTitleBar_left_button_drawable com.example.customview01:left_button_drawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomTitleBar_left_button_text com.example.customview01:left_button_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomTitleBar_left_button_text_color com.example.customview01:left_button_text_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomTitleBar_left_button_visible com.example.customview01:left_button_visible}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomTitleBar_right_button_drawable com.example.customview01:right_button_drawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomTitleBar_right_button_text com.example.customview01:right_button_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomTitleBar_right_button_text_color com.example.customview01:right_button_text_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomTitleBar_right_button_visible com.example.customview01:right_button_visible}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomTitleBar_title_background_color com.example.customview01:title_background_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomTitleBar_title_text com.example.customview01:title_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomTitleBar_title_text_color com.example.customview01:title_text_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomTitleBar_title_text_drawable com.example.customview01:title_text_drawable}</code></td><td></td></tr>
+           </table>
+           @see #CustomTitleBar_left_button_drawable
+           @see #CustomTitleBar_left_button_text
+           @see #CustomTitleBar_left_button_text_color
+           @see #CustomTitleBar_left_button_visible
+           @see #CustomTitleBar_right_button_drawable
+           @see #CustomTitleBar_right_button_text
+           @see #CustomTitleBar_right_button_text_color
+           @see #CustomTitleBar_right_button_visible
+           @see #CustomTitleBar_title_background_color
+           @see #CustomTitleBar_title_text
+           @see #CustomTitleBar_title_text_color
+           @see #CustomTitleBar_title_text_drawable
+         */
+        public static final int[] CustomTitleBar = {
+            0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006,
+            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
+            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#left_button_drawable}
+          attribute's value can be found in the {@link #CustomTitleBar} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+          @attr name com.example.customview01:left_button_drawable
+        */
+        public static final int CustomTitleBar_left_button_drawable = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#left_button_text}
+          attribute's value can be found in the {@link #CustomTitleBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.customview01:left_button_text
+        */
+        public static final int CustomTitleBar_left_button_text = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#left_button_text_color}
+          attribute's value can be found in the {@link #CustomTitleBar} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.customview01:left_button_text_color
+        */
+        public static final int CustomTitleBar_left_button_text_color = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#left_button_visible}
+          attribute's value can be found in the {@link #CustomTitleBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.customview01:left_button_visible
+        */
+        public static final int CustomTitleBar_left_button_visible = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#right_button_drawable}
+          attribute's value can be found in the {@link #CustomTitleBar} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+          @attr name com.example.customview01:right_button_drawable
+        */
+        public static final int CustomTitleBar_right_button_drawable = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#right_button_text}
+          attribute's value can be found in the {@link #CustomTitleBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.customview01:right_button_text
+        */
+        public static final int CustomTitleBar_right_button_text = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#right_button_text_color}
+          attribute's value can be found in the {@link #CustomTitleBar} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.customview01:right_button_text_color
+        */
+        public static final int CustomTitleBar_right_button_text_color = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#right_button_visible}
+          attribute's value can be found in the {@link #CustomTitleBar} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.customview01:right_button_visible
+        */
+        public static final int CustomTitleBar_right_button_visible = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#title_background_color}
+          attribute's value can be found in the {@link #CustomTitleBar} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+          @attr name com.example.customview01:title_background_color
+        */
+        public static final int CustomTitleBar_title_background_color = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#title_text}
+          attribute's value can be found in the {@link #CustomTitleBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.customview01:title_text
+        */
+        public static final int CustomTitleBar_title_text = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#title_text_color}
+          attribute's value can be found in the {@link #CustomTitleBar} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.customview01:title_text_color
+        */
+        public static final int CustomTitleBar_title_text_color = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.customview01.R.attr#title_text_drawable}
+          attribute's value can be found in the {@link #CustomTitleBar} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be an integer value, such as "<code>100</code>".
+          @attr name com.example.customview01:title_text_drawable
+        */
+        public static final int CustomTitleBar_title_text_drawable = 5;
     };
 }

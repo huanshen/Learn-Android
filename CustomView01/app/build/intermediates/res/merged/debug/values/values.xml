@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr format="string" name="titleText"/>
-    <attr format="color" name="titleTextColor"/>
-    <attr format="dimension" name="titleTextSize"/>
-    <declare-styleable name="CustomTitleView"><attr name="titleText"/><attr name="titleTextColor"/><attr name="titleTextSize"/></declare-styleable>
+    <declare-styleable name="CustomImageView"><attr format="string" name="titleText1"/><attr format="color" name="titleTextColor1"/><attr format="dimension" name="titleTextSize1"/></declare-styleable>
+    <declare-styleable name="CustomTitleBar"><attr format="reference|integer" name="title_background_color"/><attr format="boolean" name="left_button_visible"/><attr format="boolean" name="right_button_visible"/><attr format="string" name="title_text"/><attr format="color" name="title_text_color"/><attr format="reference|integer" name="title_text_drawable"/><attr format="string" name="right_button_text"/><attr format="color" name="right_button_text_color"/><attr format="reference|integer" name="right_button_drawable"/><attr format="string" name="left_button_text"/><attr format="color" name="left_button_text_color"/><attr format="reference|integer" name="left_button_drawable"/></declare-styleable>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="action_settings">Settings</string>
     <string name="app_name">CustomView01</string>
     <string name="hello_world">Hello world!</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+        
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
     </style>
 </resources>

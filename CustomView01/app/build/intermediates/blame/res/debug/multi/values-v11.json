@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\newbaidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "outputFile": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "D:\\newbaidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
