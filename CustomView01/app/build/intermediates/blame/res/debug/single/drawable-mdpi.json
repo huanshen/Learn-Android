@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
-        "source": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/src/main/res/drawable-mdpi/ic_launcher.png"
     }
 ]

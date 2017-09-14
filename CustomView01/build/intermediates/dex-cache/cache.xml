@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="D:\And_sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jar="/Users/shenjiaqi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="D:\baidu\baidu\searchbox-android\CustomView01\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_1285fc0977ff1e710b46bd42a7979d11982c88ce.jar" />
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_bb37ffae79e046e9668237f7c10f5bc212a51e43.jar" />
     </item>
 
 </items>

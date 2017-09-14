@@ -1,4 +1,4 @@
-#Tue Aug 15 11:30:38 CST 2017
-base.0=D\:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Wed Sep 06 21:18:53 CST 2017
+base.0=/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=D\:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

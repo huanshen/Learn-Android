@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 1015
                 },
                 "from": {
-                    "file": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\dimens.xml"
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\dimens.xml"
                 }
             },
             {
@@ -23,7 +23,7 @@
                     "endOffset": 1071
                 },
                 "from": {
-                    "file": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\dimens.xml"
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\dimens.xml"
                 }
             },
             {
@@ -35,7 +35,7 @@
                     "endOffset": 1124
                 },
                 "from": {
-                    "file": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -47,7 +47,7 @@
                     "endOffset": 1174
                 },
                 "from": {
-                    "file": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -59,7 +59,7 @@
                     "endOffset": 1227
                 },
                 "from": {
-                    "file": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -72,7 +72,7 @@
                     "endOffset": 1310
                 },
                 "from": {
-                    "file": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -85,7 +85,149 @@
                     "endOffset": 1382
                 },
                 "from": {
-                    "file": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 962,
+                    "endColumn": 57,
+                    "endOffset": 1015
+                },
+                "from": {
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 1020,
+                    "endColumn": 55,
+                    "endOffset": 1071
+                },
+                "from": {
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 1076,
+                    "endColumn": 52,
+                    "endOffset": 1124
+                },
+                "from": {
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 52,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 1129,
+                    "endColumn": 49,
+                    "endOffset": 1174
+                },
+                "from": {
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 49,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1179,
+                    "endColumn": 52,
+                    "endOffset": 1227
+                },
+                "from": {
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 159,
+                        "endColumn": 52,
+                        "endOffset": 207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1232,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 1518
+                },
+                "from": {
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1523,
+                    "endLine": 18,
+                    "endColumn": 12,
+                    "endOffset": 1678
+                },
+                "from": {
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
                 }
             }
         ]

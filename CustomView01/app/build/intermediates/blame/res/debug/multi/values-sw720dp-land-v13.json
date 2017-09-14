@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+        "outputFile": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,37 @@
                     "endOffset": 109
                 },
                 "from": {
-                    "file": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
                         "startOffset": 205,
                         "endColumn": 58,
                         "endOffset": 259
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/src/main/res/values-sw720dp-land/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 200,
+                        "endColumn": 58,
+                        "endOffset": 254
                     }
                 }
             }

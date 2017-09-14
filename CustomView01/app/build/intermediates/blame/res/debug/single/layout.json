@@ -1,14 +1,26 @@
 [
     {
-        "merged": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout.xml",
-        "source": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\layout\\layout.xml"
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout.xml",
+        "source": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\layout\\layout.xml"
     },
     {
-        "merged": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s.xml",
-        "source": "D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\layout\\s.xml"
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/build/intermediates/res/merged/debug/layout/s.xml",
+        "source": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/src/main/res/layout/s.xml"
+    },
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/build/intermediates/res/merged/debug/layout/layout.xml",
+        "source": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/app/src/main/res/layout/layout.xml"
+    },
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\build\\intermediates\\res\\merged\\debug\\layout\\s.xml",
+        "source": "/Users/shenjiaqi/Desktop/git/Learn-Android/CustomView01/D:\\baidu\\baidu\\searchbox-android\\CustomView01\\app\\src\\main\\res\\layout\\s.xml"
     }
 ]
