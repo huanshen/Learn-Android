@@ -2,8 +2,6 @@ package com.example.shenjiaqi.myapplication;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
-import android.provider.ContactsContract;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -14,10 +12,9 @@ import android.widget.TextView;
 
 
 /**
- * 小说漫画推荐模板使用的item
+ * test
  *
  * @author  shenjiaqi
- * @version v9.3.5
  * @since 2017/9/12
  */
 
