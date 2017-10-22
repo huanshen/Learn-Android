@@ -153,6 +153,14 @@ public class MyDecoration extends RecyclerView.ItemDecoration {
     @Override
     public void getItemOffsets(Rect outRect, View view, RecyclerView parent,
                                RecyclerView.State state) {
+        int childAdapterPosition = parent.getChildAdapterPosition(view);
+
+        int lastCount = parent.getAdapter().getItemCount() - 1;
+        //如果当前条目与是最后一个条目，就不设置divider padding
+        if (childAdapterPosition == lastCount) {
+            outRect.set(0, 0, 0, 0);
+            return;
+        }
         if (mOrientation == VERTICAL) {
             outRect.set(0, 0, 0, mDivider.getIntrinsicHeight());
         } else {
