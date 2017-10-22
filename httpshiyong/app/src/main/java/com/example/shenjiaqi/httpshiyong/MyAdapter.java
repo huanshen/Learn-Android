@@ -1,9 +1,11 @@
 package com.example.shenjiaqi.httpshiyong;
 
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -71,9 +73,17 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     //自定义的ViewHolder，持有每个Item的的所有界面元素
     public  class ImageHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public TextView mTextView;
+        public Button btn;
         public ImageHolder(View view){
             super(view);
             mTextView = (TextView) view.findViewById(R.id.text);
+            btn = (Button) view.findViewById(R.id.btn) ;
+            btn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Log.i("click", "click");
+                }
+            });
             view.setOnClickListener(this);
         }
 
@@ -87,9 +97,17 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     public  class ColorHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         public TextView mTextView;
+        public Button btn;
         public ColorHolder(View view){
             super(view);
             mTextView = (TextView) view.findViewById(R.id.text);
+            btn = (Button) view.findViewById(R.id.btn1) ;
+            btn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Log.i("click", "click 1");
+                }
+            });
             view.setOnClickListener(this);
         }
 

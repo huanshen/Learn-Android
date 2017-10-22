@@ -10,6 +10,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -31,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void handleMessage(Message msg) {
             FeedModel feedModel = (FeedModel) msg.obj;
-            initRecyclerView(feedModel.feedBaseModelList);
+            // initRecyclerView(feedModel.feedBaseModelList);
             Log.i("M", feedModel.error);
         }
     };
@@ -40,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        EventBus.getDefault().register(this);
         okHttp_synchronousGet();
     }
 
@@ -83,7 +88,10 @@ public class MainActivity extends AppCompatActivity {
                         String responseString = (response.body() == null ? "" : response.body().string());
                         FeedModelParser parser = new FeedModelParser();
                         FeedModel feedModel = parser.parseResponse(responseString);
-                        handler.sendMessage(handler.obtainMessage(22, feedModel));
+                        //handler.sendMessage(handler.obtainMessage(22, feedModel));
+                        WidgetActionEvent event = new WidgetActionEvent(WidgetActionEvent.ACTION_CLICK);
+                        event.object = feedModel;
+                        EventBus.getDefault().post(event);
 
                     } else {
                         Log.i(TAG, "okHttp is request error");
@@ -95,5 +103,17 @@ public class MainActivity extends AppCompatActivity {
         }).start();
     }
 
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void handleEvent(WidgetActionEvent messageEvent) {
+        Log.i("test", "运行");
+        FeedModel feedModel = (FeedModel) messageEvent.object;
+        initRecyclerView(feedModel.feedBaseModelList);
+    }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        //取消注册事件
+        EventBus.getDefault().unregister(this);
+    }
 }
