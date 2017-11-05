@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/shenjiaqi/.android/build-cache/1bc8634802a3ce14a400fa9fd84696050a2205d1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7b6e59566fd8e17c2ac169914c4c220d8a8c1b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shenjiaqi/.android/build-cache/2b28fd323b3a48ccf869927e083dc01400767940/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d2895ba4dcd2ac780322e0d7031f63a199dde113/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3049cd565829219199385e78fee442a4f157eb2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2eaa84fdcecf834f32bca20ffdf74ddc4c498320">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_81e87b37598aa33ec6b0d2bb9d7ae8eb0238f864/classes.dex" />
+    </item>
+
+</items>

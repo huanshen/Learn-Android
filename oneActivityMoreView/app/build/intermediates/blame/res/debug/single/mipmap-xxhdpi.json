@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    }
+]
