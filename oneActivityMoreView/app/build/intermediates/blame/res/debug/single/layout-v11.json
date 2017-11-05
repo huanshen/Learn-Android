@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/shenjiaqi/.android/build-cache/3e64a0e8f330bb81d357cc1efc5888d20c1a5738/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/shenjiaqi/.android/build-cache/3e64a0e8f330bb81d357cc1efc5888d20c1a5738/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/shenjiaqi/.android/build-cache/3e64a0e8f330bb81d357cc1efc5888d20c1a5738/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/shenjiaqi/.android/build-cache/3e64a0e8f330bb81d357cc1efc5888d20c1a5738/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/shenjiaqi/.android/build-cache/3e64a0e8f330bb81d357cc1efc5888d20c1a5738/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/shenjiaqi/.android/build-cache/3e64a0e8f330bb81d357cc1efc5888d20c1a5738/output/res/layout-v11/notification_media_cancel_action.xml"
+    }
+]

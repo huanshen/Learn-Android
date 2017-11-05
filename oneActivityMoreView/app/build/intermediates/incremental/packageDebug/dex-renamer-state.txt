@@ -1,0 +1,7 @@
+#Thu Nov 02 11:14:45 CST 2017
+base.0=/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3049cd565829219199385e78fee442a4f157eb2c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_81e87b37598aa33ec6b0d2bb9d7ae8eb0238f864/classes.dex
+base.1=/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_81e87b37598aa33ec6b0d2bb9d7ae8eb0238f864
+file.0=/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3049cd565829219199385e78fee442a4f157eb2c/classes.dex

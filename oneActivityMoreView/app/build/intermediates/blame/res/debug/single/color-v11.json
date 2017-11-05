@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/shenjiaqi/.android/build-cache/3e64a0e8f330bb81d357cc1efc5888d20c1a5738/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/shenjiaqi/Desktop/git/Learn-Android/oneActivityMoreView/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/shenjiaqi/.android/build-cache/3e64a0e8f330bb81d357cc1efc5888d20c1a5738/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]
