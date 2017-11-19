@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/shenjiaqi/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/shenjiaqi/Desktop/git/MvpWithRecyclerView/app/build/intermediates/pre-dexed/debug/okio-1.8.0-de1e98d3d301b721273f1b240e181e787af23ddc.jar" />
+    </item>
+    <item
+        jar="/Users/shenjiaqi/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/Users/shenjiaqi/Desktop/git/MvpWithRecyclerView/app/build/intermediates/pre-dexed/debug/okhttp-3.3.1-68aec32ab0cf69c5ccbd39d4e344cecd7c0457dc.jar" />
+    </item>
+
+</items>

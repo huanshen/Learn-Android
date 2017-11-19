@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/shenjiaqi/Desktop/git/Learn-Android/TablayoutViewpager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/TablayoutViewpager/app/build/intermediates/pre-dexed/debug/classes-cea7948fad228edb042272387035a0ad6c17a698.jar" />
+    </item>
+    <item
+        jar="/Users/shenjiaqi/Desktop/git/Learn-Android/TablayoutViewpager/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/TablayoutViewpager/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-78b522cbece2364387b0937da6f8529500c64221.jar" />
+    </item>
+    <item
+        jar="/Users/shenjiaqi/Desktop/git/TablayoutViewpager/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/shenjiaqi/Desktop/git/TablayoutViewpager/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-1ca505233ae71d6d5bae91719e184d6eac8a25d4.jar" />
+    </item>
+    <item
+        jar="/Users/shenjiaqi/Desktop/git/TablayoutViewpager/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/shenjiaqi/Desktop/git/TablayoutViewpager/app/build/intermediates/pre-dexed/debug/classes-437984e06f904b27960b590253f8a32504b02b6a.jar" />
+    </item>
+    <item
+        jar="/Users/shenjiaqi/Desktop/git/Learn-Android/TablayoutViewpager/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/TablayoutViewpager/app/build/intermediates/pre-dexed/debug/classes-f0e0dc2e6683040dcd1f615a18ae2058da3b2925.jar" />
+    </item>
+    <item
+        jar="/Users/shenjiaqi/Desktop/git/TablayoutViewpager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/shenjiaqi/Desktop/git/TablayoutViewpager/app/build/intermediates/pre-dexed/debug/classes-91e1844003d4fd9136f5cc5163c0127da918839f.jar" />
+    </item>
+    <item
+        jar="/Users/shenjiaqi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/shenjiaqi/Desktop/git/TablayoutViewpager/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-fc48cb481489b24d63c113158398945901c893ab.jar" />
+    </item>
+    <item
+        jar="/Users/shenjiaqi/Desktop/git/TablayoutViewpager/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/shenjiaqi/Desktop/git/TablayoutViewpager/app/build/intermediates/pre-dexed/debug/classes-875214434024adcce4cdce9d0ecd2bcace030a9b.jar" />
+    </item>
+    <item
+        jar="/Users/shenjiaqi/Desktop/git/Learn-Android/TablayoutViewpager/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/TablayoutViewpager/app/build/intermediates/pre-dexed/debug/classes-c8855ab5153451d9f67d1896fe3bd0abed9044ad.jar" />
+    </item>
+
+</items>
