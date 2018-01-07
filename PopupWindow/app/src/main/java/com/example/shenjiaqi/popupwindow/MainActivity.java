@@ -9,7 +9,9 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -37,7 +39,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         //设置contentView
         View contentView = LayoutInflater.from(MainActivity.this).inflate(R.layout.popup_window, null);
         mPopWindow = new PopupWindow(contentView,
-                ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.MATCH_PARENT, true);
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT, true);
         mPopWindow.setContentView(contentView);
         //设置各个控件的点击响应
         TextView tv1 = (TextView)contentView.findViewById(R.id.pop_computer);
@@ -50,9 +52,9 @@ public class MainActivity extends Activity implements View.OnClickListener{
         View rootview = LayoutInflater.from(MainActivity.this).inflate(R.layout.activity_main, null);
         mPopWindow.setAnimationStyle(R.style.contextMenuAnim);
         //Log.i("shenjiaqi",)
-        //mPopWindow.showAtLocation(rootview, Gravity.TOP|Gravity.LEFT, 100, 456);
+        //mPopWindow.showAtLocation(rootview, Gravity.TOP|Gravity.LEFT, 100, 300);
 
-        mPopWindow.showAsDropDown(button, -300, -300);
+        mPopWindow.showAsDropDown(button);
 
     }
 

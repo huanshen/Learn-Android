@@ -22,9 +22,11 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView = (RecyclerView)findViewById(R.id.my_recycler_view);
         //创建默认的线性LayoutManager
         mLayoutManager = new LinearLayoutManager(this);
+        mLayoutManager.setAutoMeasureEnabled(true);
         mRecyclerView.setLayoutManager(mLayoutManager);
         //如果可以确定每个item的高度是固定的，设置这个选项可以提高性能
         mRecyclerView.setHasFixedSize(true);
+        mRecyclerView.setNestedScrollingEnabled(false);
         data = new String[]{"1231","123","123","123","123","123","123","123","123","123","123","432","523","45","234","2342", "2342", "324","234","234234"};
 
         // 具有点击功能的 1

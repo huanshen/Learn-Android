@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="575d1b935f090645e8b47f1caa911a5be494e80e">
+        sha1="5515c5e0966ed424ec9a3385fd1e358b79e50385">
         <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/fragmentTabHost/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2eb271c9014645d87abaea2587280ad75a4d40da/classes.dex" />
     </item>
 
