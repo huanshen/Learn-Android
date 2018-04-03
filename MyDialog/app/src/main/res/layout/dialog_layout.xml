@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dialog_title_margin_bottom"
+        android:layout_marginTop="@dimen/dialog_title_margin_top"
+        android:textStyle="bold"
+        android:text="@string/dialog_title_text"
+        android:textColor="@color/dialog_title_color"
+        android:textSize="@dimen/dialog_title_font_size" />
+
+    <TextView
+        android:id="@+id/dialog_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_desc_text"
+        android:textColor="@color/dialog_desc_color"
+        android:textSize="@dimen/dialog_desc_font_size"/>
+
+    <ImageView
+        android:id="@+id/dialog_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dialog_img_margin_bottom"
+        android:layout_marginLeft="@dimen/dialog_img_margin_left"
+        android:layout_marginRight="@dimen/dialog_img_margin_right"
+        android:layout_marginTop="@dimen/dialog_img_margin_top"
+        android:paddingLeft="@dimen/dialog_title_margin_bottom" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:id="@+id/dialog_divider"
+        android:background="@color/dialog_divider_color" />
+
+    <TextView
+        android:id="@+id/dialog_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dialog_close_padding_bottom"
+        android:paddingTop="@dimen/dialog_close_padding_top"
+        android:gravity="center"
+        android:text="@string/dialog_close_text"
+        android:textColor="@color/dialog_close_color"
+        android:textSize="@dimen/dialog_close_font_size"/>
+</LinearLayout>

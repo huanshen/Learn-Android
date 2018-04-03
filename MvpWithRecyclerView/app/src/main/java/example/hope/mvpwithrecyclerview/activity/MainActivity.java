@@ -4,17 +4,27 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 
 import example.hope.mvpwithrecyclerview.R;
 import example.hope.mvpwithrecyclerview.fragment.PictureFragment;
+import example.hope.mvpwithrecyclerview.presenter.PicturePresenterImpl;
+import example.hope.mvpwithrecyclerview.view.BasePageView;
 
 public class MainActivity extends AppCompatActivity {
+
+    private PicturePresenterImpl mPresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getFragmentManager().beginTransaction()
+       /* BasePageView basePageView = (BasePageView) findViewById(R.id.baseView);
+        mPresenter = new PicturePresenterImpl(basePageView);
+*/
+
+       getFragmentManager().beginTransaction()
                 .add(R.id.container, PictureFragment.newInstance())
                 .commit();
     }
@@ -39,5 +49,23 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+       // mPresenter.onResume();
+
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+       // mPresenter.onDestroy();
     }
 }

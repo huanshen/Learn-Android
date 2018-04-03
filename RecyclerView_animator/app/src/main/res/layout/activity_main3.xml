@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shenjiaqi.myapplication.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_animator_example"
+        android:text="Item animator example"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adapter_animator_example"
+        android:text="Adapter animator example"/>
+
+    <Button
+        android:id="@+id/enter_animator_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter animator example" />
+
+    <com.example.shenjiaqi.myapplication.HScroller.SlidingTabLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sliding_tabs"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/offsetdp"
+        android:id="@+id/viewPager"/>
+
+</LinearLayout>

@@ -3,19 +3,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="onItemClick"
     tools:context=".MainActivity">
-    <android.support.v4.widget.NestedScrollView
+   <!-- <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scrollbars="none">
+        android:scrollbars="none">-->
+    <com.sjq.recycletest.MyView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myView"/>
+    <com.sjq.recycletest.MyFrameLayout
+        android:id="@+id/mFrame"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="10dp"
+        android:layout_below="@+id/myView"
+        android:background="#00FFFF" >
+
+        <com.sjq.recycletest.MyImageView
+            android:id="@+id/mImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:background="#00FF00"
+            />
+    </com.sjq.recycletest.MyFrameLayout>
+    <com.sjq.recycletest.CounterView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/mFrame"
+        android:layout_centerInParent="true"
+        android:id="@+id/sss"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:focusableInTouchMode="true"
+        android:layout_below="@+id/sss"
         android:orientation="vertical">
 
-    <ImageView
+<!--    <ImageView
         android:id="@+id/top_seller"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -23,11 +49,10 @@
         android:contentDescription="@string/app_name"
         android:adjustViewBounds="true"
         android:src="@drawable/ic_launcher"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"/>-->
         <android.support.v7.widget.RecyclerView
             android:id="@+id/my_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
-    </android.support.v4.widget.NestedScrollView>
 </RelativeLayout>

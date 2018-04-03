@@ -2,18 +2,83 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="/Users/shenjiaqi/.android/build-cache/b7459e0f0c48399cf005c574ebc4f69a43651606/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/MvpWithRecyclerView/app/build/intermediates/pre-dexed/debug/classes_960d0519d083cc7edf172a5922aec953d3e89fdb.jar" />
+    </item>
+    <item
+        jar="/Users/shenjiaqi/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/Users/shenjiaqi/Desktop/git/MvpWithRecyclerView/app/build/intermediates/pre-dexed/debug/okhttp-3.3.1-68aec32ab0cf69c5ccbd39d4e344cecd7c0457dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shenjiaqi/.android/build-cache/8e3e92c1dcfc4905638fb5b91c697b63eb60282f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/MvpWithRecyclerView/app/build/intermediates/pre-dexed/debug/classes_974e1de5de86a504444c18bd1a2beefd5e02cd4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shenjiaqi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/MvpWithRecyclerView/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0_e844cb9aa379343f093800f98b5949770d742c2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shenjiaqi/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/MvpWithRecyclerView/app/build/intermediates/pre-dexed/debug/okhttp-3.3.1_68aec32ab0cf69c5ccbd39d4e344cecd7c0457dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shenjiaqi/.android/build-cache/399ea9bd9e08505e2d115384c5d7b69252b160b1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/MvpWithRecyclerView/app/build/intermediates/pre-dexed/debug/classes_f58f4d5618d0b5f98caed5d441e24d481c801fa9.jar" />
+    </item>
+    <item
         jar="/Users/shenjiaqi/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.1"
         sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
         <dex dex="/Users/shenjiaqi/Desktop/git/MvpWithRecyclerView/app/build/intermediates/pre-dexed/debug/okio-1.8.0-de1e98d3d301b721273f1b240e181e787af23ddc.jar" />
     </item>
     <item
-        jar="/Users/shenjiaqi/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        is-multidex="false"
+        jar="/Users/shenjiaqi/.android/build-cache/2fc44066d3b54289826dcc584a051e4e80ca6614/output/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
-        <dex dex="/Users/shenjiaqi/Desktop/git/MvpWithRecyclerView/app/build/intermediates/pre-dexed/debug/okhttp-3.3.1-68aec32ab0cf69c5ccbd39d4e344cecd7c0457dc.jar" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/MvpWithRecyclerView/app/build/intermediates/pre-dexed/debug/classes_e278cb6c0aecfb0c3659b9022b78d604fda6e874.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shenjiaqi/.android/build-cache/2fc44066d3b54289826dcc584a051e4e80ca6614/output/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/shenjiaqi/Desktop/git/Learn-Android/MvpWithRecyclerView/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0_7e8bf3eb6a4b5640de57e3cb924c2c186ec5a577.jar" />
     </item>
 
 </items>

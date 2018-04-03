@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Example</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+<body>
+
+<h1>我的第一个标题</h1>
+
+<p>我的第一个段落。</p>
+
+<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+
+
+</body>
+<script type="text/javascript">
+console.log("Hello World");
+console.error("Hello World");
+console.warn("Hello World");
+
+    function showAndroidToast(toast) {
+        Android.showToast(toast);
+    }
+</script>
+</html>

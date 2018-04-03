@@ -18,14 +18,11 @@ import example.hope.mvpwithrecyclerview.adapter.PictureAdapter;
 import example.hope.mvpwithrecyclerview.model.Picture;
 import example.hope.mvpwithrecyclerview.presenter.PicturePresenter;
 import example.hope.mvpwithrecyclerview.presenter.PicturePresenterImpl;
+import example.hope.mvpwithrecyclerview.view.BasePageView;
 import example.hope.mvpwithrecyclerview.view.PictureView;
 
-public class PictureFragment extends Fragment implements PictureView{
+public class PictureFragment extends Fragment{
 
-    private RecyclerView mRecyclerView;
-    private ProgressBar mProgress;
-
-    private PictureAdapter mAdapter;
     private PicturePresenter mPresenter;
 
     public static PictureFragment newInstance() {
@@ -44,9 +41,9 @@ public class PictureFragment extends Fragment implements PictureView{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_picture, container, false);
-        initView(view);
+       BasePageView basePageView = (BasePageView) view.findViewById(R.id.baseView);
 
-        mPresenter = new PicturePresenterImpl(this);
+        mPresenter = new PicturePresenterImpl(basePageView);
         return view;
     }
 
@@ -62,44 +59,7 @@ public class PictureFragment extends Fragment implements PictureView{
         mPresenter.onDestroy();
     }
 
-    private void initView(View view) {
-        mRecyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
-        mProgress = (ProgressBar) view.findViewById(R.id.progress_bar);
-        setupRecyclerView();
-    }
 
-    private void setupRecyclerView() {
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-    }
 
-    @Override
-    public void showProgressBar() {
-        mProgress.setVisibility(View.VISIBLE);
-        mRecyclerView.setVisibility(View.INVISIBLE);
-    }
 
-    @Override
-    public void hideProgressBar() {
-        mProgress.setVisibility(View.INVISIBLE);
-        mRecyclerView.setVisibility(View.VISIBLE);
-    }
-
-    @Override
-    public void showMsg(String msg) {
-        Toast.makeText(getActivity(), msg, Toast.LENGTH_LONG).show();
-    }
-
-    @Override
-    public void showPictures(List<Picture> pictures) {
-        mAdapter = new PictureAdapter(pictures);
-        mAdapter.setRecyclerItemClickListener(new OnRecyclerItemClickListener() {
-            @Override
-            public void onItemClick(int pos) {
-                mPresenter.onItemClick(pos);
-            }
-        });
-        mRecyclerView.setAdapter(mAdapter);
-    }
-
-    ON
 }

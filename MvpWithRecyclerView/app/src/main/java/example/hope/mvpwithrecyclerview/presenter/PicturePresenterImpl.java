@@ -33,11 +33,6 @@ public class PicturePresenterImpl implements PicturePresenter, LoaderListener {
     }
 
     @Override
-    public void onItemClick(int pos) {
-        mPictureView.showMsg(String.valueOf(pos));
-    }
-
-    @Override
     public void onFinish(List<Picture> pictures) {
         mPictureView.hideProgressBar();
         mPictureView.showPictures(pictures);

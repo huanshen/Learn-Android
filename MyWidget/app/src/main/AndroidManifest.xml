@@ -8,7 +8,7 @@
         </intent-filter>
         <meta-data
             android:name="android.appwidget.provider"
-            android:resource="@layout/widget_setting"/>
+            android:resource="@layout/setting_widget"/>
     </receiver>
 
     <application

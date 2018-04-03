@@ -6,5 +6,4 @@ package example.hope.mvpwithrecyclerview.presenter;
 public interface PicturePresenter {
     void onResume();
     void onDestroy();
-    void onItemClick(int pos);
 }

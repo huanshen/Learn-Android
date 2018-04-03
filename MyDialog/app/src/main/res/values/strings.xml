@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="dialog_title_text">标题</string>
+    <string name="dialog_desc_text">副标题</string>
+    <string name="dialog_close_text">我知道了</string>
+</resources>
